@@ -86,6 +86,7 @@ header {
     height: 65px;
 }
 
+
 header.scrolled {
     background-color: #fff;
     top:0%;
@@ -145,16 +146,21 @@ li {
   .top-left {
     padding-right: 10%;
   }
-  .div-button {
+  .yellow-button {
     width: 100px;
     background-color: #ffe01b;
-    padding: 15px;
+    padding: 12px;
     border-radius: 50px;
     border: 2px solid;
-    transition: border 0.3s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
+    align-items: center;
+    text-align: center;
+    font-weight:normal;
   }
-  .div-button:hover {
-    border: 3px solid;
+  .yellow-button:hover {
+    
+    background-color: #f6f6f4;
+
   }
   .align-center {
     margin: 5%;
@@ -248,8 +254,12 @@ li {
 }
 a:link {
   color:#241c15;
+  transition: color 0.3s ease-in-out;
 }
-.yellow-section {
+a:hover{
+  color: white;
+}
+.cream-section {
   background-color:#fbeeca;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -267,4 +277,21 @@ a:link {
 .grid-img {
   width: 70%;
   height: 70%;
+}
+.yellow-section {
+  background-color: #ffe01b;
+}
+p > a {
+  color: white !important;
+}
+.white-button {
+  width: 100px;
+  background-color: none;
+  padding: 12px;
+  border-radius: 50px;
+  border: 2px solid;
+  transition: background-color 0.5s ease-in-out;
+  align-items: center;
+  text-align: center;
+  font-weight:normal;
 }
