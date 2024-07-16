@@ -333,3 +333,111 @@ footer {
   align-items: center;
   text-align: center;
 }
+@media (max-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+
+  header {
+    height: 60px;
+  }
+
+  .nav-topbar, .nav {
+    height: 60px;
+  }
+
+  .holder-right, .holder-left {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 768px) {
+  .top-left {
+    padding-right: 5%;
+  }
+
+  img {
+    height: 300px;
+  }
+
+  .yellow-button, .white-button {
+    
+    padding: 10px;
+  }
+
+  .top-quote {
+    width: 70%;
+  }
+
+  .img-hover {
+    height: 250px;
+    width: 75%;
+  }
+  .img-order {
+    height: 250px;
+    width: 75%;
+  }
+  .hoover-img {
+    height: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .align-center {
+    margin: 2%;
+  }
+
+  .draw-section {
+    flex-direction: column;
+  }
+
+  .draw {
+    width: 100%;
+  }
+
+  .draw-quote {
+    width: 100%;
+    padding: 5%;
+  }
+
+  .cream-section {
+    padding: 2rem 4rem 2rem 4rem;
+  }
+
+  .grid-div {
+    max-width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .aside-top {
+    display: none;
+  }
+  .holder-right{
+    display: none;
+  }
+   .black-link {
+    display: none;
+  }
+
+  .img-hover {
+    height: auto;
+    padding: 0;
+  }
+
+  .hoover-img {
+    height: auto;
+  }
+  .hoover-img {
+    height: 100px;
+  }
+  img {
+    height: 100px;
+  }
+  .l-quote {
+     padding: 0; 
+}
+.draw-quote {
+  padding: 0%;
+}
+}
